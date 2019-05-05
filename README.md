@@ -1,7 +1,27 @@
 # Electric_bill
 this is a great program to calculate your electric bill
 
+alculating your electric bill:
 
+
+
+	This is a program that calculates and give you a estimate value of your total  electric bill in month & year. It's very simple the program, it will ask you some question and you have to answer it  correctly. There two ways to use the program: finding Kilowatt Hour by wattage, or by amperage. 
+
+First question:
+	The program will ask you how do you want to find KWH(kilowatt hour)like this:
+		If you don't know the wattage of your device
+type 'v' to find Kilowatt Hour anod:other methods
+
+	If you don’t type nothing or something else that is not ‘v’. By default it will begin with the method of finding KWH by wattage 
+
+
+Second step:
+	The rest of the question answers will be number. You can use int or float number for specific: time, wattage, amp and money.
+
+
+
+
+###################################################################################################################################
 class KiloWattHour:
 
     def __init__(self,watt,hour, dollar):
@@ -110,3 +130,4 @@ class Kilo_Watt_Hour:
         cost_kilo_watt_hour = self.cost_of_electricity_month(self.dollar, kilo_watt_hour)
         print(cost_kilo_watt_hour, "$ is your total of money you need to pay your electrty bill in one month")
 
+#########################################################################################################################################
